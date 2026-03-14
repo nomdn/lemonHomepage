@@ -3,9 +3,9 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // [Basic]
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'Astro Theme Pure',
+  title: 'Lemon Homepage',
   /** Will be used in index page & copyright declaration */
-  author: 'Pure Lab',
+  author: 'nomdn',
   /** Description metadata for your website. Can be used in page metadata. */
   description: 'Stay hungry, stay foolish',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
@@ -14,10 +14,10 @@ export const theme: ThemeUserConfig = {
   socialCard: '/images/social-card.png',
   /** Specify the default language for this site. */
   locale: {
-    lang: 'en-US',
-    attrs: 'en_US',
+    lang: 'zh-CN',
+    attrs: 'zh_CN',
     // Date locale
-    dateLocale: 'en-US',
+    dateLocale: 'zh-CN',
     dateOptions: {
       day: 'numeric',
       month: 'short',
@@ -26,7 +26,7 @@ export const theme: ThemeUserConfig = {
   },
   /** Set a logo image to show in the homepage. */
   logo: {
-    src: '/src/assets/avatar.png',
+    src: '/src/assets/lh_easy.webp',
     alt: 'Avatar'
   },
 
@@ -48,10 +48,8 @@ export const theme: ThemeUserConfig = {
   /** Configure the header of your site. */
   header: {
     menu: [
-      { title: 'Blog', link: '/blog' },
-      { title: 'Docs', link: '/docs' },
+      { title: 'Blog', link: 'https://blog.wsmdn.top' },
       { title: 'Projects', link: '/projects' },
-      { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
     ]
   },
@@ -64,15 +62,9 @@ export const theme: ThemeUserConfig = {
     links: [
       // Registration link
       {
-        title: 'Moe ICP 114514',
-        link: 'https://icp.gov.moe/?keyword=114514',
+        title: '苏ICP备2026012471号',
+        link: 'https://beian.miit.gov.cn/',
         style: 'text-sm' // Uno/TW CSS class
-      },
-      // Privacy Policy link
-      {
-        title: 'Site Policy',
-        link: '/terms',
-        pos: 2 // position set to 2 will be appended to copyright line
       }
     ],
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
@@ -161,7 +153,7 @@ export const integ: IntegrationUserConfig = {
   waline: {
     enable: true,
     // Server service link
-    server: 'https://astro-theme-pure-waline.arthals.ink/',
+    server: 'https://waline.wsmdn.top/',
     // Show meta info for comments
     showMeta: false,
     // Refer https://waline.js.org/en/guide/features/emoji.html
