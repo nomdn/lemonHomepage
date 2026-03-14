@@ -84,13 +84,13 @@ cloudflared tunnel run <UUID>
 ## Saas配置
 
 ### 首先添加回退源为你**第五步**中tunnel绑定的域名
-<img src="./saas.png" width="70%" height="70%">  
+<img src="/image/saas.png" width="70%" height="70%">  
 
 ### 添加自定义主机名为**第四步**中tunnel配置文件第二个绑定的域名
-<img src="./custom-domain.png" width="70%" height="70%">  
+<img src="/image/custom-domain.png" width="70%" height="70%">  
 
 ### 随后跟随指引添加验证txt解析  
-<img src="./saas2.png" width="70%" height="70%">  
+<img src="/image/saas2.png" width="70%" height="70%">  
 
 最后在你的自定义主机名使用的域名添加指向回退源的CNAME  
 
