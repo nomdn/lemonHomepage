@@ -151,7 +151,7 @@ export const integ: IntegrationUserConfig = {
   },
   // Comment system
   waline: {
-    enable: true,
+    enable: false,
     // Server service link
     server: 'https://waline.wsmdn.top/',
     // Show meta info for comments
